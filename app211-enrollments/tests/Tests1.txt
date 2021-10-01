@@ -1,0 +1,9 @@
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+student1.print();
+ Student ID: 22045444 Name: brandon Farrell
