@@ -5,7 +5,7 @@
  * 
  * @author Michael Kölling and David Barnes
  * @modified by Brandon Farrell
- * @version 1.0 01/10/2021
+ * @version 2.0 01/10/2021
  */
 public class Student
 {
