@@ -41,6 +41,9 @@ public class Student
         return id;
     }
 
+    /**
+     * Print the student's name and ID number to the output terminal.
+     */
     public void enrol(Course course)
     {
         this.course = course;
