@@ -53,16 +53,6 @@ public void setCredit()
     this.credit = credit;
 }
  
-/**
-     * Print the details of the course, the list
-     * of students enrolled and the module
-     */
-    public void print()
-    {
-        
-        
-        System.out.println(" Module Code: " + code + ": " + title);
-        System.out.println();
-    }
+
 
 }
