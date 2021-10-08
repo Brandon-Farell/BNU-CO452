@@ -3,7 +3,7 @@ computing.print();
    App211: Course Details
  --------------------------------
 
- Course Code: BT1CTG1: BSc Computing
+ Course Code: BT1GDV1: BSc Games Development
 
 student1.print();
  Student ID: 22045444 Name: brandon Farrell
@@ -12,5 +12,5 @@ computing.print();
    App211: Course Details
  --------------------------------
 
- Course Code: BT1CTG1: BSc Computing
+ Course Code: BT1GDV1: BSc Games Development
 
