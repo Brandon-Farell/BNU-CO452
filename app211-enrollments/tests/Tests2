@@ -1,0 +1,6 @@
+Module co452 = new Module("CO452", "Programming Concepts");
+co452.getCode()
+    returned String "CO452"
+co452.print();
+ Module Code: CO452: Programming Concepts
+
