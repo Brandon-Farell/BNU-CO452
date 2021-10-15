@@ -36,6 +36,7 @@ public class Course
         printHeading();
         
         System.out.println(" Course Code: " + code + ": " + title);
+        module.print();
         System.out.println();
     }
     
@@ -48,5 +49,11 @@ public class Course
         System.out.println("   App211: Course Details");
         System.out.println(" --------------------------------");
         System.out.println();
+    }
+
+    
+    public void assignModule(Module module)
+    {
+        this.module = module ;
     }
 }
