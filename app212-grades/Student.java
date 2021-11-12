@@ -106,7 +106,7 @@ public class Student
     {
          for(ModuleMark mark: marks)
      {
-         ModuleMark.print()
+         ModuleMark.print();
      }
     }
     
