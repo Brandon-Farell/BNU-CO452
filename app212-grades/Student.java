@@ -4,8 +4,8 @@ import java.util.*;
  * It holds the student details relevant in our context.
  * 
  * @author Michael Kölling and David Barnes
- * Modified by Derek Peacock & Nicholas Day
- * @version 2021-08-18
+ * Modified by Brandon Farrell
+ * @version 12/11/2001
  */
 public class Student
 {
@@ -24,7 +24,7 @@ public class Student
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("Brandon", 100187909);
     }
     
     /**
@@ -49,7 +49,7 @@ public class Student
      */
     public void awardMark(String moduleCode, int value)
     {
-
+       
     }
     
     /**
@@ -104,10 +104,13 @@ public class Student
     
     private void printModules()
     {
-
+         for(ModuleMark mark: marks)
+     {
+         ModuleMark.print()
+     }
     }
     
-    public void printTranscript()
+public void printTranscript()
     {
         System.out.println(" ------------------------------------");
         System.out.println(" App21-02: Exam Board Transcript 2021");

@@ -19,7 +19,7 @@ public class Course
      
     public Course()
     {
-        this("G400", "BSc Computing");
+        this("G400", "BSc Games Development");
     }
     
     /**
@@ -89,6 +89,10 @@ public class Course
      */
     public void printModules()
     {
-        System.out.println();
+        for (Module module : modules)
+         {
+             module.print();
+             module.printCredit();
+         }
     }
 }
