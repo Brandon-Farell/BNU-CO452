@@ -143,7 +143,7 @@ public class StockList
     public void printHeading()
     {
         System.out.println();
-        System.out.println(" Peacock's Stock List");
+        System.out.println(" Brandon's Stock List");
         System.out.println(" ====================");
         System.out.println();
     }
