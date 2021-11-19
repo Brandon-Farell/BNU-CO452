@@ -4,13 +4,15 @@
  * The demonstration becomes properly functional as
  * the StockManager class is completed.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Brandon Farrell.
+ * @version 19/11/2021
  */
 public class StockDemo
 {
     // The stock manager.
     private StockList stock;
+    
+    
 
     /**
      * Create a StockManager and populate it with at least
@@ -18,14 +20,25 @@ public class StockDemo
      */
     public StockDemo(StockList stock)
     {
-        this.stock = stock;
+        this.stock = new StockList();
+        
         
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
         
-        stock.add(new Product(101, "Samsung Galaxy S20"));
-        stock.add(new Product(102, "Apple iPhone 12"));
-        stock.add(new Product(103, "Google Pixel 4A"));
+        stock.add(new Product(101, "Team Fortress 2"));
+        stock.add(new Product(102, "Payday 2"));
+        stock.add(new Product(103, "Payday: The Heist"));
+        stock.add(new Product(104, "Halo Infinite"));
+        stock.add(new Product(105, "Payday 3"));
+        stock.add(new Product(106, "DELTARUNE"));
+        stock.add(new Product(107, "UNDERTALE"));
+        stock.add(new Product(108, "Halo: Combat Evolved"));
+        stock.add(new Product(109, "No More Heroes 3"));
+        stock.add(new Product(110, "Travis Strikes Back: No More Heroes"));
+        
+        
+        runDemo();
     }
     
     /**
@@ -50,6 +63,7 @@ public class StockDemo
     
     private void buyProducts()
     {
+        stock.buyProduct(101, 500);
     }
 
     private void sellProducts()
